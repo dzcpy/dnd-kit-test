@@ -8,15 +8,16 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "@dnd-kit/core": "latest",
+    "@dnd-kit/utilities": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "@dnd-kit/core": "latest",
-    "@dnd-kit/utilities": "latest"
+    "react-dom": "latest"
   },
   "license": "MIT",
   "keywords": [
     "next"
   ],
-  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works."
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works.",
+  "devDependencies": {}
 }
